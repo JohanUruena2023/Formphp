@@ -1,6 +1,4 @@
-<html>
-<head>
-<body>
+
 <?php
 $Identificacion= $_POST ['Identificacion'];
 $NomApellidos=$_POST ['NomApellidos'];
@@ -11,6 +9,4 @@ echo "Los nombres y apellidos del empleado son: ".$NomApellidos;
 echo "El cargo del empleado es: ".$Cargo;
 echo "El salario del empleado es:  ".$Salario;
 ?>
-</body>
-</head>
-</html>
+
